@@ -50,4 +50,34 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/eglll/LsLevel13 -.unity
     guid: 5b5143eb92dafc545827ad0731eb5645
+  - enabled: 1
+    path: Assets/Scenes/Hotels/Level10.unity
+    guid: f6ca3adb235306849af46b24769c8c27
+  - enabled: 1
+    path: Assets/Scenes/Hotels/Level11.unity
+    guid: ba4a18d477e63cd48b38bffaf3ef2523
+  - enabled: 1
+    path: Assets/Scenes/Hotels/Level12.unity
+    guid: 356468369ef0af94d8c31fbd07997d21
+  - enabled: 1
+    path: Assets/Scenes/Hotels/Level13.unity
+    guid: 2445341cfe574184f8b462f76057cd52
+  - enabled: 1
+    path: Assets/Scenes/Hotels/Level14.unity
+    guid: f9b4efa4b7d221943bd26bc8835599fb
+  - enabled: 1
+    path: Assets/Scenes/Hotels/Level15.unity
+    guid: d0b6dc386bf96d640959ee73309b130d
+  - enabled: 1
+    path: Assets/Scenes/Hotels/Level16.unity
+    guid: 2377dc829db0eb547b9f82b04bbef167
+  - enabled: 1
+    path: Assets/Scenes/Hotels/Level 17.unity
+    guid: 80dd5d539b0fc2f42b97a0fd12bff8e7
+  - enabled: 1
+    path: Assets/Scenes/Hotels/Level18.unity
+    guid: 119d3ac3b21aea34a933a1dd04f091c1
+  - enabled: 1
+    path: Assets/Scenes/Hotels/Level19.unity
+    guid: 9ebb2d59c2e49bb4dac51d85cf99f164
   m_configObjects: {}
