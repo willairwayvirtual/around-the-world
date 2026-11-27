@@ -7,7 +7,11 @@
       "RelativeMoniker": "D:0:0:{83616706-D9CB-3F0B-FB13-0D621C958A0E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hotslevelcomplete1 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83616706-D9CB-3F0B-FB13-0D621C958A0E}|Assembly-CSharp.csproj|c:\\visstudioproj\\github\\around-the-world\\around the world\\assets\\scripts\\2levmun .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{83616706-D9CB-3F0B-FB13-0D621C958A0E}|Assembly-CSharp.csproj|c:\\visstudioproj\\github\\around-the-world\\around the world\\assets\\scripts\\levelmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83616706-D9CB-3F0B-FB13-0D621C958A0E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83616706-D9CB-3F0B-FB13-0D621C958A0E}|Assembly-CSharp.csproj|C:\\VisStudioProj\\github\\around-the-world\\Around the world\\assets\\scripts\\2levmun .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83616706-D9CB-3F0B-FB13-0D621C958A0E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\2levmun .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "levelmenu.cs",
+              "DocumentMoniker": "C:\\VisStudioProj\\github\\around-the-world\\Around the world\\Assets\\Scripts\\levelmenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\levelmenu.cs",
+              "ToolTip": "C:\\VisStudioProj\\github\\around-the-world\\Around the world\\Assets\\Scripts\\levelmenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\levelmenu.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T13:50:42.677Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +45,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\hotsLevelComplete1 .cs",
               "ToolTip": "C:\\VisStudioProj\\github\\around-the-world\\Around the world\\Assets\\Scripts\\hotsLevelComplete1 .cs",
               "RelativeToolTip": "Assets\\Scripts\\hotsLevelComplete1 .cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB0AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-27T06:58:34.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "2levmun .cs",
               "DocumentMoniker": "C:\\VisStudioProj\\github\\around-the-world\\Around the world\\Assets\\Scripts\\2levmun .cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\2levmun .cs",
@@ -43,8 +60,7 @@
               "RelativeToolTip": "Assets\\Scripts\\2levmun .cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-22T15:05:42.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-22T15:05:42.07Z"
             }
           ]
         }
