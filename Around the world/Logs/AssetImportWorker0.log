@@ -15,7 +15,7 @@ C:/VisStudioProj/github/around-the-world/Around the world
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58624
+57857
 Successfully changed project path to: C:/VisStudioProj/github/around-the-world/Around the world
 C:/VisStudioProj/github/around-the-world/Around the world
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/VisStudioProj/github/around-the-world/Around the world
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20676] Host "[IP] 192.168.1.110 [Port] 0 [Flags] 2 [Guid] 26162074 [EditorId] 26162074 [Version] 1048832 [Id] WindowsEditor(7,wij_ceo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [31276] Host "[IP] 192.168.1.110 [Port] 0 [Flags] 2 [Guid] 1410575991 [EditorId] 1410575991 [Version] 1048832 [Id] WindowsEditor(7,wij_ceo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20676] Host "[IP] 192.168.1.110 [Port] 0 [Flags] 2 [Guid] 26162074 [EditorId] 26162074 [Version] 1048832 [Id] WindowsEditor(7,wij_ceo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31276] Host "[IP] 192.168.1.110 [Port] 0 [Flags] 2 [Guid] 1410575991 [EditorId] 1410575991 [Version] 1048832 [Id] WindowsEditor(7,wij_ceo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 13 workers.
-Refreshing native plugins compatible for Editor in 16.92 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 10.45 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.25f1 (530ae0ba3889)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -70,7 +70,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
@@ -79,8 +79,8 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.022927 seconds.
-- Loaded All Assemblies, in  0.442 seconds
+Registered in 0.015819 seconds.
+- Loaded All Assemblies, in  0.338 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
@@ -89,39 +89,39 @@ Native extension for VisionOS target not found
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 404 ms
+Android Extension - Scanning For ADB Devices 271 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.835 seconds
-Domain Reload Profiling: 1275ms
-	BeginReloadAssembly (141ms)
+- Finished resetting the current domain, in  0.549 seconds
+Domain Reload Profiling: 886ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (164ms)
-		LoadAssemblies (140ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (107ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (158ms)
-			TypeCache.Refresh (157ms)
-				TypeCache.ScanAssembly (142ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (836ms)
+	FinalizeReload (550ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (768ms)
+		SetupLoadedEditorAssemblies (504ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (582ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (384ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (129ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -129,8 +129,8 @@ Domain Reload Profiling: 1275ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.710 seconds
-Refreshing native plugins compatible for Editor in 5.46 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.592 seconds
+Refreshing native plugins compatible for Editor in 3.95 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
@@ -139,47 +139,47 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.606 seconds
-Domain Reload Profiling: 1312ms
-	BeginReloadAssembly (146ms)
+- Finished resetting the current domain, in  0.459 seconds
+Domain Reload Profiling: 1048ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (478ms)
-		LoadAssemblies (376ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (333ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (193ms)
-			TypeCache.Refresh (170ms)
-				TypeCache.ScanAssembly (151ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (607ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (111ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (459ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (450ms)
+		SetupLoadedEditorAssemblies (338ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (53ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (302ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (219ms)
 			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 5.49 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 4.20 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3633 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 43 unused Assets / (61.2 KB). Loaded Objects now: 4091.
-Memory consumption went from 141.3 MB to 141.3 MB.
-Total: 2.643400 ms (FindLiveObjects: 0.226600 ms CreateObjectMapping: 0.060000 ms MarkObjects: 2.234500 ms  DeleteObjects: 0.120800 ms)
+Memory consumption went from 141.4 MB to 141.4 MB.
+Total: 2.833400 ms (FindLiveObjects: 0.403700 ms CreateObjectMapping: 0.149500 ms MarkObjects: 2.166000 ms  DeleteObjects: 0.112700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -196,26 +196,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 1096071.537258 seconds.
-  path: Assets/Scenes/eglll/LsLevel13 -.unity
-  artifactKey: Guid(5b5143eb92dafc545827ad0731eb5645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/eglll/LsLevel13 -.unity using Guid(5b5143eb92dafc545827ad0731eb5645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7d702d8cbcb0c749f9ff85b9c08ffc') in 0.004679 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 39.937655 seconds.
-  path: Assets/Scripts/hotsLevelComplete1 .cs
-  artifactKey: Guid(41ae42172db05574bb5ecf8e3ab07143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/hotsLevelComplete1 .cs using Guid(41ae42172db05574bb5ecf8e3ab07143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0b6907f28c0203385f2d4f0cdf7bd8') in 0.001255 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.630 seconds
-Refreshing native plugins compatible for Editor in 7.10 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.473 seconds
+Refreshing native plugins compatible for Editor in 8.28 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
@@ -224,115 +208,46 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.560 seconds
-Domain Reload Profiling: 2186ms
-	BeginReloadAssembly (194ms)
+- Finished resetting the current domain, in  1.249 seconds
+Domain Reload Profiling: 1719ms
+	BeginReloadAssembly (159ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (32ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (362ms)
-		LoadAssemblies (448ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (251ms)
+		LoadAssemblies (325ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (23ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1561ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (363ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (45ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (228ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 4.69 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3611 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (35.4 KB). Loaded Objects now: 4095.
-Memory consumption went from 138.3 MB to 138.2 MB.
-Total: 2.370500 ms (FindLiveObjects: 0.222400 ms CreateObjectMapping: 0.055600 ms MarkObjects: 2.026200 ms  DeleteObjects: 0.065500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.570 seconds
-Refreshing native plugins compatible for Editor in 9.85 ms, found 4 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
-Native extension for VisionOS target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.353 seconds
-Domain Reload Profiling: 1918ms
-	BeginReloadAssembly (188ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (279ms)
-		LoadAssemblies (369ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12ms)
-			TypeCache.Refresh (6ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (1354ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1250ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (511ms)
+		SetupLoadedEditorAssemblies (538ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (73ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (72ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (318ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (14ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (337ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (17ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 8.66 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 8.14 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3612 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (35.4 KB). Loaded Objects now: 4099.
-Memory consumption went from 140.5 MB to 140.4 MB.
-Total: 3.548600 ms (FindLiveObjects: 0.432900 ms CreateObjectMapping: 0.308400 ms MarkObjects: 2.738400 ms  DeleteObjects: 0.067300 ms)
+Unloading 34 unused Assets / (35.2 KB). Loaded Objects now: 4095.
+Memory consumption went from 138.6 MB to 138.5 MB.
+Total: 2.957300 ms (FindLiveObjects: 0.320700 ms CreateObjectMapping: 0.067900 ms MarkObjects: 2.494400 ms  DeleteObjects: 0.073100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -349,3 +264,147 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1106257.299808 seconds.
+  path: Assets/Scenes/Hotels/Level10.unity
+  artifactKey: Guid(f6ca3adb235306849af46b24769c8c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hotels/Level10.unity using Guid(f6ca3adb235306849af46b24769c8c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd484dd014d3f81f1e01833b39f31e918') in 0.004240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.332679 seconds.
+  path: Assets/Scenes/Hotels/Level2.unity
+  artifactKey: Guid(356468369ef0af94d8c31fbd07997d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hotels/Level2.unity using Guid(356468369ef0af94d8c31fbd07997d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6018f1b1c148765c07cfd41cb622185') in 0.001025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.258596 seconds.
+  path: Assets/Scenes/Hotels/Leve1l2.unity
+  artifactKey: Guid(356468369ef0af94d8c31fbd07997d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hotels/Leve1l2.unity using Guid(356468369ef0af94d8c31fbd07997d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9479da3453d1d88158eebe291862486a') in 0.000844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.502887 seconds.
+  path: Assets/Scenes/Hotels/Level3.unity
+  artifactKey: Guid(2445341cfe574184f8b462f76057cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hotels/Level3.unity using Guid(2445341cfe574184f8b462f76057cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321f46641e3c96fa261947699cc7cd34') in 0.001523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 35.350445 seconds.
+  path: Assets/Scenes/Hotels/Level1l3.unity
+  artifactKey: Guid(2445341cfe574184f8b462f76057cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hotels/Level1l3.unity using Guid(2445341cfe574184f8b462f76057cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25eb882783483559d1331392fcdc3452') in 0.000785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 167.974616 seconds.
+  path: Assets/Scenes/Hotels/Level12.unity
+  artifactKey: Guid(356468369ef0af94d8c31fbd07997d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hotels/Level12.unity using Guid(356468369ef0af94d8c31fbd07997d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d0c97496ad449ad97d8f21d723f5da') in 0.001258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.351496 seconds.
+  path: Assets/Scenes/Hotels/Level4.unity
+  artifactKey: Guid(f9b4efa4b7d221943bd26bc8835599fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hotels/Level4.unity using Guid(f9b4efa4b7d221943bd26bc8835599fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd977e203ebfce64334b4182e1c4dbc97') in 0.001436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 36.012573 seconds.
+  path: Assets/Scenes/Hotels/Level14.unity
+  artifactKey: Guid(f9b4efa4b7d221943bd26bc8835599fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hotels/Level14.unity using Guid(f9b4efa4b7d221943bd26bc8835599fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4b2e16101cd60f216372e543d731c1') in 0.001284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.896583 seconds.
+  path: Assets/Scenes/Hotels/Level5.unity
+  artifactKey: Guid(d0b6dc386bf96d640959ee73309b130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hotels/Level5.unity using Guid(d0b6dc386bf96d640959ee73309b130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63dc042ccc97808b43d92ed3bf61c4a') in 0.000699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 33.947844 seconds.
+  path: Assets/Scenes/Hotels/Level15.unity
+  artifactKey: Guid(d0b6dc386bf96d640959ee73309b130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hotels/Level15.unity using Guid(d0b6dc386bf96d640959ee73309b130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d425fd5a46b7a511c6bb10f106587c1') in 0.001875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.346613 seconds.
+  path: Assets/Scenes/Hotels/Level6.unity
+  artifactKey: Guid(2377dc829db0eb547b9f82b04bbef167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hotels/Level6.unity using Guid(2377dc829db0eb547b9f82b04bbef167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea08603bd2097e37e825346ff1dbe66') in 0.000816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.839539 seconds.
+  path: Assets/Scenes/Hotels/Level16.unity
+  artifactKey: Guid(2377dc829db0eb547b9f82b04bbef167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hotels/Level16.unity using Guid(2377dc829db0eb547b9f82b04bbef167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39750e2664bf5007d71e4a75f264ed5') in 0.001792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.579493 seconds.
+  path: Assets/Scenes/Hotels/Level7.unity
+  artifactKey: Guid(80dd5d539b0fc2f42b97a0fd12bff8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hotels/Level7.unity using Guid(80dd5d539b0fc2f42b97a0fd12bff8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d703bcf38a638ccfc7df1d923613267') in 0.002086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 58.539320 seconds.
+  path: Assets/Scenes/Hotels/Leve1l7.unity
+  artifactKey: Guid(80dd5d539b0fc2f42b97a0fd12bff8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hotels/Leve1l7.unity using Guid(80dd5d539b0fc2f42b97a0fd12bff8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633b5a8f3b63aa72a0068adf515b7b82') in 0.001018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 75.981953 seconds.
+  path: Assets/Scenes/Hotels/Level1l7.unity
+  artifactKey: Guid(80dd5d539b0fc2f42b97a0fd12bff8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hotels/Level1l7.unity using Guid(80dd5d539b0fc2f42b97a0fd12bff8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9d6f1d156719b659909d00a5c0ddcf') in 0.002122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.521896 seconds.
+  path: Assets/Scenes/Hotels/Level8.unity
+  artifactKey: Guid(119d3ac3b21aea34a933a1dd04f091c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hotels/Level8.unity using Guid(119d3ac3b21aea34a933a1dd04f091c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811f3312fe69d4a424d1968b0603437c') in 0.000729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.852954 seconds.
+  path: Assets/Scenes/Hotels/Level18.unity
+  artifactKey: Guid(119d3ac3b21aea34a933a1dd04f091c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hotels/Level18.unity using Guid(119d3ac3b21aea34a933a1dd04f091c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1aa63170ba396bfa2a5c97f678c570') in 0.001197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 124.000473 seconds.
+  path: Assets/Scenes/Hotels/Level 17.unity
+  artifactKey: Guid(80dd5d539b0fc2f42b97a0fd12bff8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hotels/Level 17.unity using Guid(80dd5d539b0fc2f42b97a0fd12bff8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cacd809f9d8d6a3f677b5215dc4b837') in 0.000812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
