@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/eglll/Level10.unity
     guid: 9376b9bfeea4f5542b56da8a02d84bb7
+  - enabled: 1
+    path: Assets/Scenes/eglll/LsLevel13 -.unity
+    guid: 5b5143eb92dafc545827ad0731eb5645
   m_configObjects: {}

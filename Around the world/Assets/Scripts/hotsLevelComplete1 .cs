@@ -9,7 +9,7 @@ public class HotelsLevelComplete1 : MonoBehaviour
     public void OnLevelComplete()
     {
         UnlockNewLevel();
-        SceneManager.LoadScene("HotelsLevelSelectionMenu");
+        SceneManager.LoadScene("LsLevel13 -");
 
     }
 
@@ -27,7 +27,7 @@ public class HotelsLevelComplete1 : MonoBehaviour
     {
         {
             UnlockNewLevel();
-            SceneManager.LoadScene("HotelsLevelSelectionMenu");
+            SceneManager.LoadScene("LsLevel13 -");
 
         }
 
